@@ -1,6 +1,8 @@
 body {
-    background: rgb(87, 135, 197);
-    color:white;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Tallinn_panorama_from_Toomkirik%2C_June_2010.jpg/1200px-Tallinn_panorama_from_Toomkirik%2C_June_2010.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@ body {
     left:20px;
 }
 header {
-    background:rgb(141, 204, 204);
+    /*background:rgb(141, 204, 204);*/
     padding:0;
     position:fixed;
     top:0;
@@ -30,12 +32,15 @@ button {
     font-size:18px;
 }
 section {
-    background: rgb(87, 135, 197);
-    margin-top:70px;
-    padding-left:150px;
+    background: rgb(255, 255, 255);
+    margin-top:140px;
+    margin-left:12%;
+    margin-right:12%;
     overflow:auto;
     margin-bottom: 40px;
     padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
     
 }
 /*div {
@@ -46,7 +51,8 @@ section {
 .menü  {
     list-style-type:none;
     padding:12px;
-    margin: 0;
+    
+    margin-right: 50px;
     
 }
 .menü li {
@@ -55,6 +61,7 @@ section {
     margin-right: 10px;
     margin-bottom: 0;
     float:right;
+    
 }
 .menü  a {
     text-decoration: none;
@@ -93,19 +100,21 @@ section {
     color:rgb(255, 255, 255);
     background-color: #555;
 } */
-.põhiosa {
-    width:80%;
+.põhiosa {   
     padding-top:0;
     padding:20px;
     margin-top:10px;
 }
-#uudised {
-    color:black;
-    position:relative;
-    padding:20px;
-    background-color:white ;
-    height:100%;
-    
+#uudised {    
+    padding:10px;
+    background-color:#eaeae4 ;
+    margin:5px;
+}
+
+.hall {
+    background-color:#eaeae4;
+    padding:10px;
+    margin:5px;
 }
 footer {
     background: darkgray;
